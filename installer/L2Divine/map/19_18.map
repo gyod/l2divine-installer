@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Western of Dark Elven Village
+minz=0
+maxz=0
+
+[layer1]
+name=Catacomb of Dark Omens
+minz=-4896
+maxz=-4896

@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Garden of Eva
+minz=-5000
+maxz=0
+
+[layer1]
+name=Garden of Eva FL 1
+minz=-11000
+maxz=-7000

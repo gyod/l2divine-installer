@@ -1,0 +1,29 @@
+[info]
+layer=5
+
+[layer0]
+name=Tower of Infinitum and Trully's Workshop 1st Floor
+minz=-8300
+maxz=-8000
+
+[layer1]
+name=Tower of Infinitum and Trully's Workshop 2nd Floor
+minz=-9500
+maxz=-9000
+
+[layer2]
+name=Tower of Infinitum and Trully's Workshop 3rd Floor
+minz=-12000
+maxz=-10000
+
+
+[layer3]
+name=Tower of Infinitum and Trully's Workshop 4th Floor
+minz=-15100
+maxz=-13000
+
+
+[layer4]
+name=Tower of Infinitum and Trully's Workshop 5th Floor
+minz=-16000
+maxz=-15200

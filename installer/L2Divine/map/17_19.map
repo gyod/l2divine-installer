@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Nornil's Cave
+minz=-3100
+maxz=0
+
+[layer1]
+name=Kamael Nornil's Cave
+minz=-5000
+maxz=-3400

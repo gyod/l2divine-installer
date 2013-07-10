@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Giran Harbor
+minz=0
+maxz=0
+
+[layer1]
+name=Catacomb of Branded
+minz=-4976
+maxz=-4976

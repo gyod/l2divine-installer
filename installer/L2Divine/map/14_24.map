@@ -1,0 +1,22 @@
+[info]
+layer=4
+
+[layer0]
+name=Seed of Infinity (Sky)
+minz=-1000
+maxz=10000
+
+[layer1]
+name=Hall of Suffering
+minz=-9000
+maxz=-8000
+
+[layer2]
+name=Hall of Erosion
+minz=-13000
+maxz=-11000
+
+[layer3]
+name=Heart of Infinity
+minz=-16000
+maxz=-15000

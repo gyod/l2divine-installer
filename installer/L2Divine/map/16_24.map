@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Talking Island
+minz=-4000
+maxz=0
+
+[layer1]
+name=Great Valley's Labyrinth
+minz=-11000
+maxz=-8000

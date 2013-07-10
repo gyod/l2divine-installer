@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Elven Fortress
+minz=-3760
+maxz=0
+
+[layer1]
+name=Elven Ruin
+minz=-4500
+maxz=-3800

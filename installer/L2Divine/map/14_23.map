@@ -1,0 +1,17 @@
+[info]
+layer=3
+
+[layer0]
+name=Seed of Annihilation Instance
+minz=-10000
+maxz=0
+
+[layer1]
+name=Seed of Annihilation Instance 1st floor
+minz=-12000
+maxz=-10000
+
+[layer2]
+name=Seed of Annihilation Instance 2nd floor
+minz=-16000
+maxz=-15000

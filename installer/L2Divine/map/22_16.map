@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Swamp of Screams 
+minz=-3500
+maxz=0
+
+[layer1]
+name=Stakato Nest
+minz=-7000
+maxz=-4000

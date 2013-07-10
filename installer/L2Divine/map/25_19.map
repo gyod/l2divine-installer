@@ -1,0 +1,17 @@
+[info]
+layer=3
+
+[layer0]
+name=The Giant's Cave
+minz=0
+maxz=0
+
+[layer1]
+name=The Giant's Cave (1st Floor)
+minz=0
+maxz=0
+
+[layer2]
+name=The Giant's Cave (2nd Floor)
+minz=0
+maxz=0

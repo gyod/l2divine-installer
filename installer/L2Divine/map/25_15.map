@@ -1,0 +1,17 @@
+[info]
+layer=3
+
+[layer0]
+name=Imperial Tomb
+minz=-5200
+maxz=0
+
+[layer1]
+name=Imperial Tomb FL 1
+minz=-6900
+maxz=-5300
+
+[layer2]
+name=Four Sepulchers
+minz=-7500
+maxz=-7000

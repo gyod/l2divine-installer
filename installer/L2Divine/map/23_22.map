@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Giran Castle
+minz=0
+maxz=0
+
+[layer1]
+name=Necropolis of Martyrdom
+minz=-4824
+maxz=-4824

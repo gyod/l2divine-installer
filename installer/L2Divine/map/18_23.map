@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Wasteland
+minz=-4300
+maxz=0
+
+[layer1]
+name=Forgotten Temple
+minz=-5000
+maxz=-4400

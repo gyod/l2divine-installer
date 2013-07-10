@@ -1,0 +1,22 @@
+[info]
+layer=4
+
+[layer0]
+name=Cruma Tower
+minz=-5000
+maxz=5000
+
+[layer1]
+name=Cruma Tower FL 1
+minz=-10000
+maxz=-9000
+
+[layer2]
+name=Cruma Tower FL 2
+minz=-13000
+maxz=-12000
+
+[layer3]
+name=Cruma Tower FL 3
+minz=-7000
+maxz=-6000

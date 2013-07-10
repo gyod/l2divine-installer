@@ -1,0 +1,23 @@
+[info]
+layer=4
+
+[layer0]
+name=Tower of Naia 1st Floor
+minz=-9200
+maxz=-9000
+
+[layer1]
+name=Tower of Naia 2nd Floor
+minz=-10000
+maxz=-9900
+
+[layer2]
+name=Tower of Naia 3rd Floor
+minz=-14000
+maxz=-11500
+
+
+[layer3]
+name=Tower of Naia 4th Floor
+minz=-15000
+maxz=-14100

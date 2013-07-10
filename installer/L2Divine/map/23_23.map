@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Alligator Island
+minz=0
+maxz=0
+
+[layer1]
+name=Necropolis of Warship
+minz=-5432
+maxz=-5432

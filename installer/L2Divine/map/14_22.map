@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Seed of Annihilation
+minz=0
+maxz=2800
+
+[layer1]
+name=Seed of Annihilation 2nd Floor
+minz=-15500
+maxz=-15000

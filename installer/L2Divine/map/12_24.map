@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Seed of Destruction
+minz=0
+maxz=0
+
+[layer1]
+name=Fortress of Destruction
+minz=0
+maxz=0

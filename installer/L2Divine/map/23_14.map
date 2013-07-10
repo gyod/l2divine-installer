@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Frozen Labyrinth
+minz=-3500
+maxz=0
+
+[layer1]
+name=Frozen Labyrinth (Underground)
+minz=-12000
+maxz=-11000

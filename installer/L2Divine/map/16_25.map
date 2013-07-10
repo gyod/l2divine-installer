@@ -1,0 +1,22 @@
+[info]
+layer=4
+
+[layer0]
+name=Ruins of Ye Sagira
+minz=0
+maxz=0
+
+[layer1]
+name=Ruins of Harnak (Level 1)
+minz=0
+maxz=0
+
+[layer2]
+name=Ruins of Harnak (Level 2)
+minz=0
+maxz=0
+
+[layer3]
+name=Ruins of Harnak (Level 3)
+minz=-13500
+maxz=-13900

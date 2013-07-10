@@ -1,0 +1,17 @@
+[info]
+layer=3
+
+[layer0]
+name=Monastery of Silence
+minz=200
+maxz=2000
+
+[layer1]
+name=Monastery of Silence (1st Floor)
+minz=-4000
+maxz=-3000
+
+[layer2]
+name=Monastery of Silence (2nd Floor)
+minz=-2000
+maxz=100

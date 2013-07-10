@@ -1,0 +1,17 @@
+[info]
+layer=3
+
+[layer0]
+name=Abandoned Coal Mines
+minz=0
+maxz=0
+
+[layer1]
+name=Abandoned Coal Mines (1st Floor)
+minz=0
+maxz=0
+
+[layer2]
+name=Abandoned Coal Mines (2nd Floor)
+minz=-2000
+maxz=-1000

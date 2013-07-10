@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Windy Hill
+minz=0
+maxz=0
+
+[layer1]
+name=Oracle of Dusk
+minz=0
+maxz=0

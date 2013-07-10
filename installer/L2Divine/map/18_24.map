@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Langk Lizardmen Dwellings
+minz=0
+maxz=0
+
+[layer1]
+name=Necropolis of Sacrifice
+minz=-5080
+maxz=-5080

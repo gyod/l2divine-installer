@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Unk
+minz=-4000
+maxz=0
+
+[layer1]
+name=Kratei's Cube
+minz=-8500
+maxz=-8000

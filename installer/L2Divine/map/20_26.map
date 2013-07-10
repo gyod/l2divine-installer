@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Steel Citadel 1st Floor
+minz=-8000
+maxz=-5000
+
+[layer1]
+name=Steel Citadel 2nd Floor
+minz=-10000
+maxz=-9000

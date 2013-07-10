@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=The Forest of Mirrors
+minz=0
+maxz=0
+
+[layer1]
+name=Catacomb of Witch
+minz=-5424
+maxz=-5424

@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Fortress of Resistance
+minz=0
+maxz=0
+
+[layer1]
+name=The Pilgrim's Necropolis
+minz=-5408
+maxz=-5408

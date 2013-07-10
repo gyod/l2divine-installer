@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Devil's Isle
+minz=-1000
+maxz=0
+
+[layer1]
+name=Devil's Isle (Underground)
+minz=-5000
+maxz=-2000

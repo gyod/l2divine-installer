@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Fellmere Harvesting Grounds
+minz=0
+maxz=0
+
+[layer1]
+name=Oracle of Dawn
+minz=0
+maxz=0

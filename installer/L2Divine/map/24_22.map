@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Chromatic Highlands
+minz=-4000
+maxz=4000
+
+[layer1]
+name=Chromatic Highlands Fl1
+minz=-12000
+maxz=-10000

@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Cave of Trials (Upper)
+minz=-3120
+maxz=0
+
+[layer1]
+name=Cave of Trials
+minz=-3600
+maxz=-3130

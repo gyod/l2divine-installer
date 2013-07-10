@@ -1,0 +1,4 @@
+Following are the instructions to replace L2Divine official map with your own :-
+1. Prepare your map image in JPEG format in size 900x900.
+2. Naming your map in xx_yy_z.jpg format. (22_16_0.jpg)
+3. Copy your map into [L2Divine Folder]/map/

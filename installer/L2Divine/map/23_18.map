@@ -1,0 +1,92 @@
+[info]
+layer=18
+
+[layer0]
+name=Tower of Insolence
+minz=-5200
+maxz=-4460
+
+[layer1]
+name=Tower of Insolence (1-2)
+minz=-4459
+maxz=-3669
+
+[layer2]
+name=Tower of Insolence (2nd Floor)
+minz=-3668
+maxz=-2938
+
+[layer3]
+name=Tower of Insolence (2-3)
+minz=-2937
+maxz=-2160
+
+[layer4]
+name=Tower of Insolence (3rd Floor)
+minz=-2159
+maxz=-1450
+
+[layer5]
+name=Tower of Insolence (3-4)
+minz=-1449
+maxz=-680
+
+[layer6]
+name=Tower of Insolence (4th Floor)
+minz=-679
+maxz=30
+
+[layer7]
+name=Tower of Insolence (4-5)
+minz=31
+maxz=895
+
+[layer8]
+name=Tower of Insolence (5th Floor)
+minz=896
+maxz=1400
+
+[layer9]
+name=Tower of Insolence (6th Floor)
+minz=1401
+maxz=2410
+
+[layer10]
+name=Tower of Insolence (7th Floor)
+minz=2411
+maxz=3420
+
+[layer11]
+name=Tower of Insolence (8th Floor)
+minz=3421
+maxz=4430
+
+[layer12]
+name=Tower of Insolence (9th Floor)
+minz=4431
+maxz=5440
+
+[layer13]
+name=Tower of Insolence (10th Floor)
+minz=5441
+maxz=6720
+
+[layer14]
+name=Tower of Insolence (11st Floor)
+minz=6721
+maxz=7960
+
+[layer15]
+name=Tower of Insolence (12nd Floor)
+minz=7961
+maxz=8730
+
+[layer16]
+name=Tower of Insolence (13rd Floor)
+minz=8731
+maxz=9962
+
+[layer17]
+name=Tower of Insolence (14th Floor)
+minz=9963
+maxz=10050

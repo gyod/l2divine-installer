@@ -1,0 +1,32 @@
+[info]
+layer=6
+
+[layer0]
+name=Mithril Mines
+minz=0
+maxz=0
+
+[layer1]
+name=Mithril Mines FL 1
+minz=-800
+maxz=3500
+
+[layer2]
+name=Mithril Mines FL 2
+minz=0
+maxz=0
+
+[layer3]
+name=Mithril Mines FL 3
+minz=0
+maxz=0
+
+[layer4]
+name=Mithril Mines FL 4
+minz=-3000
+maxz=-1000
+
+[layer5]
+name=Mithril Mines FL 5
+minz=-3200
+maxz=-5000

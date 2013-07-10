@@ -1,0 +1,12 @@
+[info]
+layer=2
+
+[layer0]
+name=Fields of Massacre
+minz=0
+maxz=0
+
+[layer1]
+name=The Disciple's Necropolis
+minz=-4896
+maxz=-4896
