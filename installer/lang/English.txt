@@ -124,7 +124,7 @@ AI66=Change to nearest target
 AI67=Unable to change hunting area
 AI68=Unable to move with path point
 AI69=Attempted to summon servitor
-AI70=Player was locked by $s1 mob, logout and relogin in $s2 sec
+AI70=Player was locked by $s1 mob, logout and relogin in $s2 sec 
 AI71=Player was locked by $s1 mob, logout
 AI72=Response to $s1 request message
 AI73=Logout when not gain exp within $s1 sec
@@ -398,12 +398,12 @@ UI2404=Time
 
 #ItemCreation
 UI2501=Item Creation - $s1
-UI2502=Mp Cost:
-UI2503=Success Rate:
-UI2504=Resulting:
+UI2502=Mp Cost: 
+UI2503=Success Rate: 
+UI2504=Resulting: 
 UI2505=Ingredient(s)
-UI2506=Creator Mp:
-UI2507=Result(s):
+UI2506=Creator Mp: 
+UI2507=Result(s): 
 UI2508=Needed
 UI2509=Kept
 
@@ -616,7 +616,7 @@ UI4797=Spiritshot Use
 UI4798=Give to Master
 UI4799=Recommend
 UI4801=Reset
-UI4802=Time
+UI4802=Time 
 UI4803=Lv
 UI4804=Dead count
 UI4805=Get Item
@@ -1006,7 +1006,7 @@ PF158=Follow rest
 PF159=Auto rest
 PF160=Follow return
 PF161=Follow social action
-PF162=Follow logout and Relogin in
+PF162=Follow logout and Relogin in 
 PF163=Summoning
 PF164=Pet
 PF165=Summon
@@ -1189,7 +1189,7 @@ DIAG06=Create Loopback
 
 #EnchantSkill
 ES01=Skill Enchant
-ES02=Skill List
+ES02=Skill List 
 ES03=Retained SP
 ES04=Retained EXP
 ES05=Skill Route
@@ -1212,11 +1212,11 @@ FT03=($s1/$s2)
 FT04=Name
 FT05=Acronym
 FT06=Save My Location
-FT07=Edit Free Teleport
+FT07=Edit Free Teleport 
 FT08=Please select teleport location that you wish to edit
 FT09=Please input name
 
-#
+#NPCTradeList2
 NL01=Buy
 NL02=Purchase List
 NL03=Sell
