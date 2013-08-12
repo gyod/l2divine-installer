@@ -2,9 +2,9 @@
 | DivineScript Reference |
 +------------------------+
 
-Version:	2.0
-Last updated:	Jan 13, 2013
-Author:		Dev
+Version:	2.1
+Last updated:	Aug 8, 2013
+Author:		Dev, Zariche
 
 +-------------------+
 | Table of Contents |
@@ -37,6 +37,7 @@ Section 2: Commands
 - Confirm
 - CounterTargetPlayer
 - CountItem
+- CountNPCInRange
 - CountQuestDefeatNpc
 - CraftItem
 - CrystalizeItem	
@@ -71,7 +72,10 @@ Section 2: Commands
 - Msg
 - NoMobInHuntingArea
 - NpcDialog
+- NPCInRange
+- PetAction
 - PlayerBuffLevel
+- PlayerInRange
 - PlaySound
 - Recommend
 - Return
@@ -208,6 +212,7 @@ Char.InParty		Character join party status
 Char.Vitality		Character vitality
 Char.Race		Character race
 Char.Class		Character class
+Char.EXP%		Character percenrage of current level	
 Char.IsSelectTarget	Character is selected target
 Char.IsTargetByPlayer	Character is targeted by player
 Char.IsAttackByPlayer	Character is under attack by player
@@ -398,6 +403,12 @@ CountQuestDefeatNpc(NPC ID)
 			}
 			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+CountNPCInRange(NPC ID, x, y, z, radius)
+CountNPCInRange(NPC Name, x, y, z, radius)
+	Parameter	NPC ID/Name, x, y, z, radius
+	Return		Number of NPC in specified area
+	Propose		Count number of NPC in specified area (Use with If and While command)
+
 CraftItem(Receipt ID)
 	Parameter	Reciept ID
 	Return		None
@@ -554,6 +565,13 @@ ForceAttackTarget()
 				CancelAttackTarget()
 			}
 			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ForcePetAction(Action ID)
+ForcePetAction(Action Name)
+	Parameter	Action ID or Action Name
+	Return		None
+	Propose		Force use pet action
+	Example		ForcePetAction("Attack")
 
 FoundEnemyInRange(Range)
 	Parameter	Range from current location
@@ -740,6 +758,19 @@ NpcDialog(NPC Name)
 	Propose		Open NPC dialog 
 	Example		See@Revenge of the Redbonnet.txt
 
+NPCInRange(NPC ID, x, y, z, radius)
+NPCInRange(NPC Name, x, y, z, radius)
+	Parameter	NPC ID or NPC name, x, y, z, radius
+	Return		True/False
+	Propose		Check NPC in specified area
+
+PetAction(Action ID)
+PetAction(Action Name)
+	Parameter	Action ID or Action Name
+	Return		None
+	Propose		Use pet action
+	Example		PetAction("Attack")
+
 PlayerBuffLevel(Name, Skill ID)
 	Parameter	Player name, Skill ID
 	Return		True/False
@@ -757,6 +788,11 @@ PlayerBuffLevel(Name, Skill ID)
 			}
 			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+PlayerInRange(Name, x, y, z, radius)
+	Parameter	Player name, x, y, z, radius
+	Return		True/False
+	Propose		Check player in specified area
+			(Use with If and While command)
 PlaySound(Sound File)
 	Parameter	Part of sound file
 	Return		None
