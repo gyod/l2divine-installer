@@ -2,8 +2,8 @@
 | DivineScript Reference |
 +------------------------+
 
-Version:	2.1
-Last updated:	Aug 8, 2013
+Version:	2.2
+Last updated:	Oct 10, 2013
 Author:		Dev, Zariche
 
 +-------------------+
@@ -30,6 +30,7 @@ Section 2: Commands
 - Buy
 - CancelAttackTarget
 - CharBuffLevel
+- CharBuffTime
 - CheckNPCRange
 - ClearHuntingArea
 - CloseDialog
@@ -75,8 +76,10 @@ Section 2: Commands
 - NPCInRange
 - PetAction
 - PlayerBuffLevel
+- PlayerBuffTime
 - PlayerInRange
 - PlaySound
+- QuestAccepted
 - Recommend
 - Return
 - ReturnToVillage
@@ -272,7 +275,7 @@ AddRectHuntingArea(radius)
 
 AddItem(Item ID, Count)
 AddItem(Item Name, Count)
-	Parameter	Item ID or Item Name, Quantity (Use * for all)
+	Parameter	Item ID or Item Name (Use * for all item in inv), Quantity (Use * for all)
 	Return		None
 	Propose		Add item to buy, sell, withdraw and deposit list of 
 			opening trade dialog.
@@ -305,6 +308,12 @@ CharBuffLevel(Skill Name)
 	Parameter	Skill ID or Skill Name
 	Return		Level of skill effected
 	Propose		Get level of skill effected of character (Use with If and While command)
+
+CharBuffTime(Skill ID)
+CharBuffTime(Skill Name)
+	Parameter	Skill ID or Skill Name
+	Return		Remaining time of skill effected
+	Propose		Get remaining time of skill effected of character (Use with If and While command)
 
 CheckNPCRange(NPC ID)
 	Parameter	NPC/Mob ID
@@ -774,7 +783,7 @@ PetAction(Action Name)
 PlayerBuffLevel(Name, Skill ID)
 	Parameter	Player name, Skill ID
 	Return		True/False
-	Propose		Check level of buff of specified player
+	Propose		Check level of buff of specified player	
 			(Use with If and While command)
 	Example		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 			// Check mentor buff
@@ -787,6 +796,12 @@ PlayerBuffLevel(Name, Skill ID)
 				Msg(Console, "NO BUFF")
 			}
 			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+PlayerBuffTime(Name, Skill ID)
+	Parameter	Player name, Skill ID
+	Return		True/False
+	Propose		Check remaining time of buff of specified player 
+			(Use with If and While command)
 
 PlayerInRange(Name, x, y, z, radius)
 	Parameter	Player name, x, y, z, radius
@@ -806,6 +821,16 @@ Recommend(Player Name)
 	Parameter	Player name
 	Return		None
 	Propose		Give recommend to player
+
+QuestAccepted(Quest Id)
+	Parameter	Quest Id
+	Return		True/False
+	Propose		Check the quest is accepted or not 
+			(Use with If and While command)
+			If (QuestAccepted(10324))
+			{
+				// Do something ...
+			}
 
 Return
 	Parameter	None

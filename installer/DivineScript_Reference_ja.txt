@@ -2,8 +2,8 @@
 | DivineScript リファレンス |
 +---------------------------+
 
-バージョン：	2.1
-最終更新日：	Aug 8, 2013
+バージョン：	2.2
+最終更新日：	Oct 10, 2013
 著者：		Dev, Zariche
 訳者：		gyo
 
@@ -31,6 +31,7 @@
 - Buy
 - CancelAttackTarget
 - CharBuffLevel
+- CharBuffTime
 - CheckNPCRange
 - ClearHuntingArea
 - CloseDialog
@@ -76,8 +77,10 @@
 - NPCInRange
 - PetAction
 - PlayerBuffLevel
+- PlayerBuffTime
 - PlayerInRange
 - PlaySound
+- QuestAccepted
 - Recommend
 - Return
 - ReturnToVillage
@@ -290,7 +293,8 @@ AddRectHuntingArea(radius)
 
 AddItem(Item ID, Count)
 AddItem(Item Name, Count)
-	引数	アイテムIDまたはアイテム名、数量（「*」で全て対象）
+	引数	アイテムIDまたはアイテム名（「*」でインベントリ内の全アイテムが対象）、
+		数量（「*」で全て対象）
 	返値	なし
 	目的	開いているトレードダイアログに購入、販売、預ける、取り出す
 		アイテムを追加
@@ -325,6 +329,13 @@ CharBuffLevel(Skill Name)
 	目的	キャラクタにかかっているスキルのレベル数を取得
 		（IfまたはWhileコマンドで使用）
 		※訳注：旧BuffLevelと同等というか名称変更
+
+CharBuffTime(Skill ID)
+CharBuffTime(Skill Name)
+	引数	スキルIDまたはスキル名
+	返値	スキル適用の残時間
+	目的	キャラクタに適用されているスキルの残り時間
+		（IfまたはWhileコマンドで使用）
 
 CheckNPCRange(NPC ID)
 	引数	NPC（MOB）ID
@@ -818,6 +829,12 @@ PlayerInRange(Name, x, y, z, radius)
 	目的	特定のプレイヤーが指定範囲内に存在するか確認
 		（If またはWhile コマンドで使用）
 
+PlayerBuffTime(Name, Skill ID)
+	引数	プレイヤー名、スキルID
+	返値	True/False（ブール（真偽）値）
+	目的	特定キャラクタのバフの残り時間
+		（If またはWhile コマンドで使用）
+
 PlaySound(Sound File)
 	引数	サウンドファイル（WAV）ファイルのパス
 	返値	なし
@@ -827,6 +844,17 @@ PlaySound(Sound File)
 	使用例	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		PlaySound("C:\temp\L2Divine\sound\Alert.wav")
 		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+QuestAccepted(Quest Id)
+	引数	クエストID
+	返値	True/False（ブール（真偽）値）
+	目的	クエストを受諾しているか確認する
+		（If またはWhile コマンドで使用）
+	使用例	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		If (QuestAccepted(10324))
+		{
+			// 何かやればいいと思う ...
+		}
 
 Recommend(Player Name)
 	引数	プレイヤー名
