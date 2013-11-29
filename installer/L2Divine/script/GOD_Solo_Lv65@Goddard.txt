@@ -115,11 +115,11 @@ BattleLoop:
 //}
 
 // Fight until shield warn off
-If (BuffLevel(4323) == 0)
-{
-	Msg(Console, "No Buff!!!")
-	Jump("BackTown")
-}
+//If (CharBuffLevel(4323) == 0)
+//{
+//	Msg(Console, "No Buff!!!")
+//	Jump("BackTown")
+//}
 
 // Die -*-
 If (Char.HP == 0)
