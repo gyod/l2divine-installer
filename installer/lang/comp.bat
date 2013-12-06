@@ -1,5 +1,7 @@
 @echo off
 
+cd C:\workspace\l2divine-installer\trunk\installer\lang
+
 ren "Chinese Simplified.txt" Chinese.txt
 resgen /compile Chinese.txt,Chinese.resources
 del "Chinese Simplified.resources"
