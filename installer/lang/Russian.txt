@@ -34,6 +34,10 @@ G15=Подключение
 G16=Отключено
 G17=Невозможно войти в режим FullIG [Текст ошибки: $s1]
 G18=Приветствую в L2Divine
+G19=Verify character PIN
+G20=Verify character PIN successful
+G21=Your character PIN not register
+G22=PIN auth delay $s1 sec
 
 #WS
 WS01=Внутренняя ошибка клиента
@@ -180,6 +184,8 @@ AI125=Выйти если петка голоднее чем < $s1% и пере�
 AI126=Автокристализовать $s1
 AI127=- Вы не выбрали еду для петки
 AI128=Change target to high priority mob
+AI129=Found $s1 at $s2, $s3, $s4
+AI130=Ignore invisible monster (NPCID: $s1)
 
 #Augment
 UI0301=Улучшение
@@ -231,6 +237,7 @@ UI0713=Введите информацию L2Divine
 UI0714=Неправильный формат IP адреса
 UI0715=Неправильный порт
 UI0716=Please enter server information
+UI0717=Unable to config
 
 #Create Account
 UI1001=Создать аккаунт
@@ -250,6 +257,7 @@ UI1014=Хотите удалить аккаунт?
 UI1015=Выберите ID для удаления
 UI1016=Карта безопасности
 UI1017=Аккаунт будет автоматически создан через $s1 секунд
+UI1018=Enable Puppet Mode
 
 #CropSale
 UI0901=Продажа урожая
@@ -267,6 +275,16 @@ UI0912=Награда 2
 UI0913=Максимальная цена
 UI0914=Авто продажа каждый
 UI0915=Auto buy every
+UI0916=Set Crop
+UI0917=Please select crop and territory
+UI0918=Please set crop for auto sale
+UI0919=Auto Sell
+UI0920=Invalid interval
+UI0921=Set Seed
+UI0922=Auto Buy
+UI0923=Please set seed for auto buy
+UI0924=Please set seed and quantity
+UI0925=Please select seed
 
 #Dialog
 UI1101=Вы хотите создать аккаунт $s1?
@@ -329,6 +347,8 @@ UI1919=Приоритет должен быть настроен
 UI1920=Использую [$s1 $s2]
 UI1921=Повтор $s1 с
 UI1922=Пет [$s1]
+UI1923=Skip when effected with
+UI1924=Ex. 1204,1068
 
 #CommandDebuff
 UI2001=Команды - Дебаф(снять дебаф)
@@ -337,6 +357,7 @@ UI2003=Условия бафера
 UI2004=Тип дебафа должен быть задан
 UI2005=Условия дебафа должен быть заданы 
 UI2006=Используют [$s1]
+UI2007=Custom skill is required
 
 #CommandHeal
 UI2101=Команда-Лечить
@@ -394,6 +415,10 @@ UI2603=Название скила
 UI2604=Выберите скил который хотите выучить
 UI2605=Скил
 UI2606=Время
+UI2607=Learn Skill
+UI2608=Character Lv
+UI2609=Required Sp
+UI2610=Learn
 
 #Manor
 UI2701=манор
@@ -716,6 +741,21 @@ UI4922=1st Order of Knights
 UI4923=2nd Order of Knights
 UI4924=3rd Order of Knights
 UI4925=4th Order of Knights
+UI4926=Charm
+UI4927=Shyness
+UI4928=Exchange Bows
+UI4929=High Five
+UI4930=Couple Dance
+UI4931=$s1 hour
+UI4932=M.Accuracy
+UI4933=M.Evasion
+UI4934=M.Critical
+UI4935=Manage Pet
+UI4936=Manage Servitor
+UI4937=Relative Z
+UI4938=Fixed Z
+UI4939=Target Line
+UI4940=Summon Points
 
 #General
 GE01=OK
@@ -803,6 +843,10 @@ AC29=Вы должны рестартовать l2divine после выбора
 AC30=Язык интерфейса
 AC31=Отчет о дропе
 AC32=Русский
+AC33=Do you want to start game client?
+AC34=Unable to start game
+AC35=Launch Game Client
+AC36=Unable to start OOG client cause the GameGuard not initialize (Option > Bot Mode > GameGuard).
 
 #Preference
 PF001=$s1 - Предпочтения
@@ -1064,6 +1108,23 @@ PF256=Polygon area - Path
 PF257=Auto attack high priority mob
 PF258=High Priority
 PF259=Pickup item in hunting area
+PF260=Please summon your pet
+PF261=Nearby
+PF262=When
+PF263=member of party, HP <
+PF264=% use
+PF265=Fix range
+PF266=Run behind leader when mob attack
+PF267=Not attack mob outside area
+PF268=$s1 result(s) found
+PF269=Auto /Unstuck
+PF270=Auto use shot
+PF271=Loot Item
+PF272=Ignore invisible monster (relogin to take effect)
+PF273=Attack monster in setting list only
+PF274=Pickup item in setting list only
+PF275=Ignore timeout mob
+PF276=PIN auth delay  (sec)
 
 #Tooltip
 TT01=[Инфо]
@@ -1095,6 +1156,8 @@ SC05=Интервал
 SC06=Активировать задание
 SC07=Прекратить задание
 SC08=Скрипт
+SC09=Optional
+SC10=ms (Minimum 500)
 
 #Script
 SCPT01=Запуск скрипта
@@ -1128,6 +1191,7 @@ DIAG02=Проверка
 DIAG03=Автоисправление
 DIAG04=Вы должны рестартовать L2Divine перед соледующей проверкой
 DIAG05=Диагностический процесс займет несколько минут. Продолжать?
+DIAG06=Create Loopback
 
 #EnchantSkill
 ES01=Затачиваемый скил
@@ -1157,3 +1221,12 @@ FT06=Сохранить мою позицию
 FT07=Редактировать бесплатные телепорты
 FT08=Выбериет телепорт для редактирования
 FT09=Введите имя
+
+#NPCTradeList2
+NL01=Buy
+NL02=Purchase List
+NL03=Sell
+NL04=Items on Sale
+NL05=Repurchase
+NL06=Repurchase List
+NL07=Repurchase Amount

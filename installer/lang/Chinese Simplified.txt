@@ -37,6 +37,7 @@ G18=L2Divine 欢迎您
 G19=验证角色 PIN
 G20=验证角色 PIN 成功
 G21=您的角色 PIN 没有注册
+G22=PIN auth delay $s1 sec
 
 #WS
 WS01=客户端内部错误
@@ -55,14 +56,6 @@ WS13=新的版本的L2Divine已经发布!
 WS14=您预付使用时间剩余 $s1 天
 
 #AI
-
-
-
-
-
-
-
-
 AI01=战斗开始
 AI02=战斗停止
 AI03=贸易开始
@@ -761,6 +754,8 @@ UI4935=控制宠物
 UI4936=管理宠物
 UI4937=Relative Z
 UI4938=Fixed Z
+UI4939=Target Line
+UI4940=Summon Points
 
 #General
 GE01=确定
@@ -851,6 +846,7 @@ AC32=俄罗斯
 AC33=您想启动游戏客户端?
 AC34=无法开始游戏
 AC35=启动游戏客户端
+AC36=Unable to start OOG client cause the GameGuard not initialize (Option > Bot Mode > GameGuard).
 
 #Preference
 PF001=$s1 - 参数设置
@@ -1127,6 +1123,8 @@ PF271=抢夺物品
 PF272=忽略隐形的怪物(重新登入后生效)
 PF273=只攻击在设置列表里的怪物
 PF274=只捡取设置列表里的物品
+PF275=Ignore timeout mob
+PF276=PIN auth delay  (sec)
 
 #Tooltip
 TT01=[资料]

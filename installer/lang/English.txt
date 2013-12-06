@@ -37,6 +37,7 @@ G18=Welcome to L2Divine
 G19=Verify character PIN
 G20=Verify character PIN successful
 G21=Your character PIN not register
+G22=PIN auth delay $s1 sec
 
 #WS
 WS01=Internal client error
@@ -753,6 +754,8 @@ UI4935=Manage Pet
 UI4936=Manage Servitor
 UI4937=Relative Z
 UI4938=Fixed Z
+UI4939=Target Line
+UI4940=Summon Points
 
 #General
 GE01=OK
@@ -843,6 +846,7 @@ AC32=Russian
 AC33=Do you want to start game client?
 AC34=Unable to start game
 AC35=Launch Game Client
+AC36=Unable to start OOG client cause the GameGuard not initialize (Option > Bot Mode > GameGuard).
 
 #Preference
 PF001=$s1 - Preferences
@@ -1119,6 +1123,8 @@ PF271=Loot Item
 PF272=Ignore invisible monster (relogin to take effect)
 PF273=Attack monster in setting list only
 PF274=Pickup item in setting list only
+PF275=Ignore timeout mob
+PF276=PIN auth delay  (sec)
 
 #Tooltip
 TT01=[Info]

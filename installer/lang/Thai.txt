@@ -37,6 +37,7 @@ G18=ยินดีต้อนรับสู่โปรแกรมบอท 
 G19=Verify character PIN
 G20=Verify character PIN successful
 G21=Your character PIN not register
+G22=PIN auth delay $s1 sec
 
 #WS
 WS01=พบข้อผิดพลาดภายใน
@@ -753,6 +754,8 @@ UI4935=สัตว์เลี้ยง
 UI4936=ซัมมอน
 UI4937=Relative Z
 UI4938=Fixed Z
+UI4939=Target Line
+UI4940=Summon Points
 
 #General
 GE01=ตกลง
@@ -843,6 +846,7 @@ AC32=รัสเซีย
 AC33=คุณต้องการจะเปิดเกมส์ใช่หรือไม่?
 AC34=ไม่สามารถเปิดเกมส์ได้
 AC35=เปิดเกมส์
+AC36=ไม่สามารถเปิดบอทจุดได้ เนื่องจากเกมการ์ดยังไม่เริ่มทำงาน (ตัวเลือก > โหมดการทำงานบอท > GameGuard).
 
 #Preference
 PF001=$s1 - ตั้งค่า
@@ -1119,6 +1123,8 @@ PF271=เก็บไอเท็มคนอื่น
 PF272=Ignore invisible monster (relogin to take effect)
 PF273=Attack monster in setting list only
 PF274=Pickup item in setting list only
+PF275=Ignore timeout mob
+PF276=PIN auth delay  (sec)
 
 #Tooltip
 TT01=[ข้อมูล]

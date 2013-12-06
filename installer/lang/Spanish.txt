@@ -34,6 +34,10 @@ G15=Conectando
 G16=Desconectado
 G17=Has fallado al iniciar el modo "IG Full" [Mensaje de error: $s1]
 G18=Bienvenido a L2Divine
+G19=Verify character PIN
+G20=Verify character PIN successful
+G21=Your character PIN not register
+G22=PIN auth delay $s1 sec
 
 #WS
 WS01=Error interno del cliente
@@ -180,6 +184,8 @@ AI125=Logout when pet hunger < $s1% and relogin in $s2 sec
 AI126=Auto crystalize $s1
 AI127=- You may not select food for pet
 AI128=Change target to high priority mob
+AI129=Found $s1 at $s2, $s3, $s4
+AI130=Ignore invisible monster (NPCID: $s1)
 
 #Augment
 UI0301=Aumentar
@@ -231,6 +237,7 @@ UI0713=Por favor introduce la informacion de L2Divine
 UI0714=Formato de direccion IP invalida
 UI0715=Puerto Invalido
 UI0716=Please enter server information
+UI0717=Unable to config
 
 #Create Account
 UI1001=Crear cuenta
@@ -250,6 +257,7 @@ UI1014=Estas seguro que quieres borrar esta cuenta?
 UI1015=Selecciona el ID a borrar
 UI1016=Tarjeta de seguridad
 UI1017=La cuenta se creara automaticamente en $s1 segundos
+UI1018=Enable Puppet Mode
 
 #CropSale
 UI0901=Venta de cosecha
@@ -267,6 +275,16 @@ UI0912=Recompensa 2
 UI0913=Precio maximo
 UI0914=Auto vender cada
 UI0915=Auto buy every
+UI0916=Set Crop
+UI0917=Please select crop and territory
+UI0918=Please set crop for auto sale
+UI0919=Auto Sell
+UI0920=Invalid interval
+UI0921=Set Seed
+UI0922=Auto Buy
+UI0923=Please set seed for auto buy
+UI0924=Please set seed and quantity
+UI0925=Please select seed
 
 #Dialog
 UI1101=Deseas crear la cuenta $s1?
@@ -329,6 +347,8 @@ UI1919=Se requiere una Prioridad
 UI1920=Usar [$s1 $s2]
 UI1921=Retrasar $s1 s
 UI1922=Mascota de [$s1]
+UI1923=Skip when effected with
+UI1924=Ex. 1204,1068
 
 #CommandDebuff
 UI2001=Comando - Debuff
@@ -337,12 +357,13 @@ UI2003=Estado
 UI2004=Se requiere el tipo de Debuff
 UI2005=Se requiere condicion de Debuff
 UI2006=Usar [$s1]
+UI2007=Custom skill is required
 
 #CommandHeal
 UI2101=Comando - Curar
 UI2102=Curador
-UI2103=Condición de Target 1
-UI2104=Condición de Target 2
+UI2103=Condiciî‰¢ de Target 1
+UI2104=Condiciî‰¢ de Target 2
 UI2105=De Inmediato
 UI2106=Shot
 UI2107=Se requiere Target a curar
@@ -394,6 +415,10 @@ UI2603=Nombre del skill
 UI2604=Selecciona el skill que deseas aprender
 UI2605=Skill
 UI2606=Tiempo
+UI2607=Learn Skill
+UI2608=Character Lv
+UI2609=Required Sp
+UI2610=Learn
 
 #Manor
 UI2701=Manor
@@ -666,7 +691,7 @@ UI4872=$s1 min
 UI4873=$s1 seg
 UI4874=Por favor selecciona el objetivo
 UI4875=Tu personaje estaba muerto
-UI4876=¡Tu mascota ha sido matada!
+UI4876=ï½¡Tu mascota ha sido matada!
 UI4877=Equipamiento
 UI4878=Item
 UI4879=Quest
@@ -716,6 +741,21 @@ UI4922=1st Order of Knights
 UI4923=2nd Order of Knights
 UI4924=3rd Order of Knights
 UI4925=4th Order of Knights
+UI4926=Charm
+UI4927=Shyness
+UI4928=Exchange Bows
+UI4929=High Five
+UI4930=Couple Dance
+UI4931=$s1 hour
+UI4932=M.Accuracy
+UI4933=M.Evasion
+UI4934=M.Critical
+UI4935=Manage Pet
+UI4936=Manage Servitor
+UI4937=Relative Z
+UI4938=Fixed Z
+UI4939=Target Line
+UI4940=Summon Points
 
 #General
 GE01=OK
@@ -803,6 +843,10 @@ AC29=Debes reiniciar l2divine para que la acciones tomen efecto
 AC30=Idioma UI
 AC31=Join DivineDB community
 AC32=Russian
+AC33=Do you want to start game client?
+AC34=Unable to start game
+AC35=Launch Game Client
+AC36=Unable to start OOG client cause the GameGuard not initialize (Option > Bot Mode > GameGuard).
 
 #Preference
 PF001=$s1 - Preferencias
@@ -1005,7 +1049,7 @@ PF197=Comerciando > Creacion de item
 PF198=Comerciando > Mercado
 PF199=Comerciando > Auto comerciar
 PF200=Control de mensajes
-PF201=El archivo de configuracion sera auto guardado a $s1.ini despues de cargar, ¿deseas continuar?
+PF201=El archivo de configuracion sera auto guardado a $s1.ini despues de cargar, ï½¿deseas continuar?
 PF202=Por favor ingresa un nombre
 PF203=Por favor ingresa el nombre a borrar
 PF204=Por favor ingresa ubicacion
@@ -1064,6 +1108,23 @@ PF256=Polygon area - Path
 PF257=Auto attack high priority mob
 PF258=High Priority
 PF259=Pickup item in hunting area
+PF260=Please summon your pet
+PF261=Nearby
+PF262=When
+PF263=member of party, HP <
+PF264=% use
+PF265=Fix range
+PF266=Run behind leader when mob attack
+PF267=Not attack mob outside area
+PF268=$s1 result(s) found
+PF269=Auto /Unstuck
+PF270=Auto use shot
+PF271=Loot Item
+PF272=Ignore invisible monster (relogin to take effect)
+PF273=Attack monster in setting list only
+PF274=Pickup item in setting list only
+PF275=Ignore timeout mob
+PF276=PIN auth delay  (sec)
 
 #Tooltip
 TT01=[Informacion]
@@ -1095,6 +1156,8 @@ SC05=Tiempo de Programacion
 SC06=Activar programacion
 SC07=Cancelar programacion
 SC08=Script
+SC09=Optional
+SC10=ms (Minimum 500)
 
 #Script
 SCPT01=Correr Script
@@ -1128,6 +1191,7 @@ DIAG02=Chequeo
 DIAG03=Auto corregir
 DIAG04=Debes reiniciar L2Divine despues del proceso de diagnostico
 DIAG05=Proceso de diagnostico puede tardar varios minutos. Deseas continuar?
+DIAG06=Create Loopback
 
 #EnchantSkill
 ES01=Encantar Skill
@@ -1157,3 +1221,12 @@ FT06=Save My Location
 FT07=Edit Free Teleport 
 FT08=Please select teleport location that you wish to edit
 FT09=Please input name
+
+#NPCTradeList2
+NL01=Buy
+NL02=Purchase List
+NL03=Sell
+NL04=Items on Sale
+NL05=Repurchase
+NL06=Repurchase List
+NL07=Repurchase Amount
