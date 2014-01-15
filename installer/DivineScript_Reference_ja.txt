@@ -2,8 +2,8 @@
 | DivineScript リファレンス |
 +---------------------------+
 
-バージョン：	2.2
-最終更新日：	2013年10月10日
+バージョン：	2.3
+最終更新日：	2014年01月15日
 著者：		Dev, Zariche
 訳者：		gyo
 
@@ -1199,6 +1199,40 @@ While() {}
 144=イース エンチャンター(Iss Enchanter)
 145=ウィン サマナー(Wynn Summoner)
 146=エアロ ヒーラー(Aeore Healer)
+148=シーゲル フェニックス ナイト(Sigel Phoenix Knight)
+149=シーゲル ヘル ナイト(Sigel Hell Knight)
+150=シーゲル エヴァス テンプラー(Sigel Eva's Templar)
+151=シーゲル シリエン テンプラー(Sigel Shillien Templar)
+152=ティール デュエリスト(Tyrr Duelist)
+153=ティール ドレッドノート(Tyrr Dreadnought)
+154=ティール タイタン(Tyrr Titan)
+155=ティール グランド カバタリ(Tyrr Grand Khavatari)
+156=ティール マエストロ(Tyrr Maestro)
+157=ティール ドゥーム ブリンガー(Tyrr Doombringer)
+158=オーセル アドベンチャラー(Othell Adventurer)
+159=オーセル ウィンド ライダー(Othel Wind Rider)
+160=オーセル ゴースト ハンター(Othell Ghost Hunter)
+161=オーセル フォーチュン シーカー(Othell Fortune Seeker)
+162=ユール サジタリウス(Yul Sagittarius)
+163=ユール ムーンライト センティネル(Yul Moonlight Sentinel)
+164=ユール ゴースト センティネル(Yul Ghost Sentinel)
+165=ユール トリックスター(Yul Trickster)
+166=フェオ アークメイジ(Feoh Archmage)
+167=フェオ ソウルテイカー(Feoh Soultaker)
+168=フェオ ミスティック ミューズ(Feoh Mystic Muse)
+169=フェオ ストーム スクリーマー(Feoh Storm Screamer)
+170=フェオ ソウル ハウンド(Feoh Soul Hound)
+171=イース ハイエロファント(Iss Hierophant)
+172=イース ソード ミューズ(Iss Sword Muse)
+173=イース スペクトラル ダンサー(Iss Spectral Dancer)
+174=イース ドミネーター(Iss Dominator)
+175=イース ドゥーム クライヤー(Iss Doomcryer)
+176=ウィン アルカナ ロード(Wynn Arcana Lord)
+177=ウィン エレメンタル マスター(Wynn Elemental Master)
+178=ウィン スペクトラル マスター(Wynn Spectral Master)
+179=エアロ カーディナル(Aeore Cardinal)
+180=エアロ エヴァス セイント(Aeore Eva's Saint)
+181=エアロ シリエン セイント(Aeore Shillien Saint)
 
 +-----------------------------------+
 | Target.AbnormalStatus（異常状態） |

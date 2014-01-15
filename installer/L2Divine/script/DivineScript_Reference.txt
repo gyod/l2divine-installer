@@ -2,8 +2,8 @@
 | DivineScript Reference |
 +------------------------+
 
-Version:	2.2
-Last updated:	Oct 10, 2013
+Version:	2.3
+Last updated:	Jan 15, 2014
 Author:		Dev, Zariche
 
 +-------------------+
@@ -217,8 +217,8 @@ Char.Race		Character race
 Char.Class		Character class
 Char.EXP%		Character percenrage of current level	
 Char.IsSelectTarget	Character is selected target
-Char.IsTargetByPlayer	Character is targeted by player
-Char.IsAttackByPlayer	Character is under attack by player
+Char.IsTargetByPlayer	Character is targeted by other player
+Char.IsAttackByPlayer	Character is under attack by other player
 Target.HP		Target HP
 Target.HP%		Target HP percentage
 Target.MP		Target MP
@@ -595,7 +595,7 @@ FoundKarmaPlayer(Range)
 FoundPlayerInRange(Range)
 	Parameter	Range from current location
 	Return		True/False
-	Propose		Check player in specified range (Use with If and While command)
+	Propose		Check other player in specified range (Use with If and While command)
 	Example		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 			// Check player in range 1000
 			If (FoundPlayerInRange(100))
@@ -808,6 +808,7 @@ PlayerInRange(Name, x, y, z, radius)
 	Return		True/False
 	Propose		Check player in specified area
 			(Use with If and While command)
+
 PlaySound(Sound File)
 	Parameter	Part of sound file
 	Return		None
@@ -1165,6 +1166,40 @@ While() {}
 144=Iss Enchanter
 145=Wynn Summoner
 146=Aeore Healer
+148=Sigel Phoenix Knight
+149=Sigel Hell Knight
+150=Sigel Eva's Templar
+151=Sigel Shillien Templar
+152=Tyrr Duelist
+153=Tyrr Dreadnought
+154=Tyrr Titan
+155=Tyrr Grand Khavatari
+156=156Tyrr Maestro
+157=Tyrr Doombringer
+158=Othell Adventurer
+159=Othel Wind Rider
+160=Othell Ghost Hunter
+161=Othell Fortune Seeker
+162=Yul Sagittarius
+163=Yul Moonlight Sentinel
+164=Yul Ghost Sentinel
+165=Yul Trickster
+166=Feoh Archmage
+167=Feoh Soultaker
+168=Feoh Mystic Muse
+169=Feoh Storm Screamer
+170=Feoh Soul Hound
+171=Iss Hierophant
+172=Iss Sword Muse
+173=Iss Spectral Dancer
+174=Iss Dominator
+175=Iss Doomcryer
+176=Wynn Arcana Lord
+177=Wynn Elemental Master
+178=Wynn Spectral Master
+179=Aeore Cardinal
+180=Aeore Eva's Saint
+181=Aeore Shillien Saint
 
 +-----------------------+
 | Target.AbnormalStatus |
