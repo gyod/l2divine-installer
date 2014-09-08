@@ -2,8 +2,8 @@
 | DivineScript リファレンス |
 +---------------------------+
 
-バージョン：	2.4
-最終更新日：	2014年05月10日
+バージョン：	2.5
+最終更新日：	2014年09月05日
 著者：		Dev, Zariche
 訳者：		gyo
 
@@ -36,6 +36,8 @@
 - CharBuffTime
 - CheckNPCRange
 - ClearHuntingArea
+- ClearItemList
+- ClearMonsterList
 - CloseDialog
 - CloseWindow
 - Confirm
@@ -99,6 +101,8 @@
 - Sell
 - SetBattleArea
 - SetRestArea
+- SetPickup
+- SetAttack
 - Sit
 - Stand
 - SocialAction
@@ -395,6 +399,16 @@ ClearHuntingArea()
 	返値	なし
 	目的	現在の設定から全てのハンティングエリアを削除
 
+ClearItemList()	
+	引数	なし
+	返値	なし
+	目的	設定リストから全てのアイテムを削除
+
+ClearMonsterList()	
+	引数	なし
+	返値	なし
+	目的	設定リストから全てのモンスターを削除
+
 CloseDialog()
 	引数	なし
 	返値	なし
@@ -410,6 +424,7 @@ Confirm()
 	返値	なし
 	目的	NP とのアイテムの購入、販売、預ける、取り出すといった取り引
 		きを実行（確定）する
+	Tip		ボタン上の右クリックで内容をコピー（L2Divine 11.1.0 の新機能）
 	使用例	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		// キャット君と話す
 		NpcDialog(31756)
@@ -1046,6 +1061,18 @@ SetRestArea(x, y, z)
 	目的	現在の設定に休憩エリアを設定する
 	使用例	SetRestArea(115968, -174345, -760)
 
+SetPickup(Item Id, true/false)
+	引数	アイテムID、True/False（ブール（真偽）値）
+	返値	なし
+	目的	指定アイテムを拾うか拾わないよう設定する
+	使用例	SetPickup(57, false) // アデナを拾わないように設定
+
+SetAttack(NPC Id, true/false)
+	引数	NPC ID、True/False（ブール（真偽）値）
+	返値	なし
+	目的	指定MOBを攻撃するか攻撃しないよう設定する
+	使用例	SetAttack(23113, true) // クローラーを攻撃するように設定
+
 Sit()
 	引数	なし
 	返値	なし
@@ -1143,6 +1170,7 @@ While() {}
 3=オーク(Orc)
 4=ドワーフ(Dwarf)
 5=カマエル(Kamael)
+6=アルテイア(Ertheia)
 
 +----------------------------+
 | Char.Class（ジョブクラス） |
@@ -1292,20 +1320,28 @@ While() {}
 179=エアロ カーディナル(Aeore Cardinal)
 180=エアロ エヴァス セイント(Aeore Eva's Saint)
 181=エアロ シリエン セイント(Aeore Shillien Saint)
+182=アルテイア ファイター(Ertheia Fighter)
+183=アルテイア ウィザード(Ertheia Wizard)
+184=モラウド(Marauder)
+185=メナス(Cloud Breaker)
+186=ランカー(Ripper)
+187=ストーム メナス(Stratomancer)
+188=グラビティ ランカー(Eviscerator)
+189=サイハズ シーアー(Sayha's Seer)
 
 +-----------------------------------+
 | Target.AbnormalStatus（異常状態） |
 +-----------------------------------+
 1=出血(Bleed)
 2=毒(Poison)
-7=スタン(Stun)
+7=ショック(Stun)
 8=睡眠(Sleep)
 9=沈黙(Mute)
-10=ホールド(Root)
-11=ショック？(Hold)
+10=ル―ト(Root)
+11=ホールド(Hold)
 12=麻痺？(Hold)
 14=頭が大きくなった状態(Big Head)
-15=火炎？(Flame)
+15=火炎(Flame)
 18=浮揚？・ホールド(Float & Root)
 19=ダンス？・スタン(Dance & Stun)
 20=火炎？・ホールド・スタン(Fire & Root & Stun)
