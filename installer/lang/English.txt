@@ -1,4 +1,4 @@
-#Login
+﻿#Login
 LG01=Use SOCKS5 proxy $s1:$s2
 LG02=You have failed to connect to the login server
 LG03=You have been disconnected from the login server
@@ -38,6 +38,12 @@ G19=Verify character PIN
 G20=Verify character PIN successful
 G21=Your character PIN not register
 G22=PIN auth delay $s1 sec
+G23=Auto register PIN
+G24=Invalid PIN format
+G25=Unable to register PIN
+G26=(Auto Register)
+G27=Gameguard ready! Enjoy OOG
+G28=Gameguard authenticate ...
 
 #WS
 WS01=Internal client error
@@ -125,7 +131,7 @@ AI66=Change to nearest target
 AI67=Unable to change hunting area
 AI68=Unable to move with path point
 AI69=Attempted to summon servitor
-AI70=Player was locked by $s1 mob, logout and relogin in $s2 sec
+AI70=Player was locked by $s1 mob, logout and relogin in $s2 sec 
 AI71=Player was locked by $s1 mob, logout
 AI72=Response to $s1 request message
 AI73=Logout when not gain exp within $s1 sec
@@ -186,6 +192,15 @@ AI127=- You may not select food for pet
 AI128=Change target to high priority mob
 AI129=Found $s1 at $s2, $s3, $s4
 AI130=Ignore invisible monster (NPCID: $s1)
+AI131=Found red PC $s1, logout in $s2 sec and relogin in $s3 sec
+AI132=Found red PC $s1, logout now
+AI134=Found red PC $s1, logout in $s2 sec
+AI135=Found red PC
+AI136=Found red PC $s1 nearby
+AI137=You can fish here
+AI138=Ignore no name monster (NPCID: $s1)
+AI139=Captcha Verification, logout in $s1 sec
+AI140=Captcha Verification, logout in $s1 sec and relogin in $s2 sec
 
 #Augment
 UI0301=Augment
@@ -238,6 +253,7 @@ UI0714=Invalid IP address format
 UI0715=Invalid port
 UI0716=Please enter server information
 UI0717=Unable to config
+UI0718=Classic Server
 
 #Create Account
 UI1001=Create Account
@@ -399,12 +415,12 @@ UI2404=Time
 
 #ItemCreation
 UI2501=Item Creation - $s1
-UI2502=Mp Cost:
-UI2503=Success Rate:
-UI2504=Resulting:
+UI2502=Mp Cost: 
+UI2503=Success Rate: 
+UI2504=Resulting: 
 UI2505=Ingredient(s)
-UI2506=Creator Mp:
-UI2507=Result(s):
+UI2506=Creator Mp: 
+UI2507=Result(s): 
 UI2508=Needed
 UI2509=Kept
 
@@ -617,7 +633,7 @@ UI4797=Spiritshot Use
 UI4798=Give to Master
 UI4799=Recommend
 UI4801=Reset
-UI4802=Time
+UI4802=Time 
 UI4803=Lv
 UI4804=Dead count
 UI4805=Get Item
@@ -756,6 +772,12 @@ UI4937=Relative Z
 UI4938=Fixed Z
 UI4939=Target Line
 UI4940=Summon Points
+UI4941=World
+UI4942=Main Class
+UI4943=Dual Class
+UI4944=Subclass
+UI4945=Change <$s1> $s2 to <$s3> $s4?
+UI4946=lv$s1 $s2 ($s3)
 
 #General
 GE01=OK
@@ -812,6 +834,8 @@ GE51=Equiped
 GE52=View All
 GE53=Pause
 GE54=Yes ($s1)
+GE55=Add All
+GE56=Delete All
 
 #AC
 AC01=Setting
@@ -828,7 +852,7 @@ AC13=Korean
 AC14=Thai
 AC15=Bot Mode
 AC16=GameGuard
-AC17=Full
+AC17=Full IG
 AC18=Hide when minimize
 AC19=Proxy Setting
 AC20=About
@@ -847,6 +871,10 @@ AC33=Do you want to start game client?
 AC34=Unable to start game
 AC35=Launch Game Client
 AC36=Unable to start OOG client cause the GameGuard not initialize (Option > Bot Mode > GameGuard).
+AC37=Japanese (Classic)
+AC38=Korean (Classic)
+AC39=English (Classic)
+AC40=Chinese Traditional (Classic)
 
 #Preference
 PF001=$s1 - Preferences
@@ -1010,7 +1038,7 @@ PF158=Follow rest
 PF159=Auto rest
 PF160=Follow return
 PF161=Follow social action
-PF162=Follow logout and Relogin in
+PF162=Follow logout and Relogin in 
 PF163=Summoning
 PF164=Pet
 PF165=Summon
@@ -1125,6 +1153,9 @@ PF273=Attack monster in setting list only
 PF274=Pickup item in setting list only
 PF275=Ignore timeout mob
 PF276=PIN auth delay  (sec)
+PF277=Found red PC in range
+PF278=Found red PC
+PF279=Ignore no name monster (relogin to take effect)
 
 #Tooltip
 TT01=[Info]
@@ -1195,7 +1226,7 @@ DIAG06=Create Loopback
 
 #EnchantSkill
 ES01=Skill Enchant
-ES02=Skill List
+ES02=Skill List 
 ES03=Retained SP
 ES04=Retained EXP
 ES05=Skill Route
@@ -1218,7 +1249,7 @@ FT03=($s1/$s2)
 FT04=Name
 FT05=Acronym
 FT06=Save My Location
-FT07=Edit Free Teleport
+FT07=Edit Free Teleport 
 FT08=Please select teleport location that you wish to edit
 FT09=Please input name
 
@@ -1230,3 +1261,27 @@ NL04=Items on Sale
 NL05=Repurchase
 NL06=Repurchase List
 NL07=Repurchase Amount
+
+#Mentoring
+MENT01=Friend Mgr.
+MENT02=Mentoring
+MENT03=My Mentor ($s1/$s2)
+MENT04=My Mentees ($s1/$s2)
+MENT05=Name
+MENT06=Lv.
+MENT07=Class
+MENT08=Status
+
+#DimensionalItem
+DIM01=Dimensional Item
+DIM02=Item List
+DIM03=Quantity
+DIM04=Receive
+DIM05=Item Name
+
+#Captcha
+CAPT01=Enter Verification Number
+CAPT02=Refresh
+CAPT03=Time to Enter
+CAPT04=Enter Verification Number (6 characters)
+CAPT05=Captcha Verification
